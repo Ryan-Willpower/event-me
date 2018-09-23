@@ -36,9 +36,10 @@ if (!empty($_SESSION['user']) && empty($_SESSION['role']) ) : ?>
 
 <div id="alert"></div>
 
-<a class="mt-4" href="php/admin/completed.php">Mark as completed</a>
+<div id="completed"></div>
 
 <script src="js/admin/edit.js"></script>
+<script src="js/admin/completed.js"></script>
 
 <?php else : ?>
 <p><strong>Want to enter this event?</strong> please
