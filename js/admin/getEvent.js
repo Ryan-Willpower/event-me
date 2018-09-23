@@ -8,6 +8,8 @@ let html = (data) => (`
         <h5>${data.title}</h5>
         <p>${data.date}</p>
         <p>${data.place}</p>
+        <a href="event.php?title=${data.title}">View</a>
+        <a href="delete.php?title=${data.title}">Delete</a>
       </div>
     </div>
   </div>
