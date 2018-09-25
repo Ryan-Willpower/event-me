@@ -20,7 +20,7 @@ $(document).ready(() => {
   let pdf = `
     <div class="text-center">
       <p class="text-success">You have been confirm this event</p>
-      <a href="php/pdf.php" target="_blank">print your reciept now!</a>
+      <a href="php/fpdf/pdf.php" target="_blank">print your reciept now!</a>
     </div>
   `
 
